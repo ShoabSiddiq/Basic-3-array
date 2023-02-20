@@ -10,7 +10,7 @@ print_r($keys)."\n";
 $keys=array_values($foods);
 print_r($keys)."\n";
 
-$keys=array_keys($foods);
+$keys=array_keys($foods); 
 for($i=0;$i<count($keys);$i++){
     $s=$keys[$i];
     echo $foods[$s]."\n";
